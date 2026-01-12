@@ -7,7 +7,7 @@ permissions:
 
 jobs:
   tests:
-    uses: ljharb/actions/.github/workflows/node.yml@main
+    uses: ljharb/actions/.github/workflows/node.yml@70adccb87a0cc9b369070083adbeac469929c9fe
     with:
       range: '>= 10 < 20'
       type: minors
